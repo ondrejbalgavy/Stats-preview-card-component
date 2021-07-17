@@ -1,0 +1,296 @@
+@@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400, 700;
+  src: url(https://fonts.google.com/specimen/Inter);
+}
+
+@@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.google.com/specimen/Lexend+Deca);
+}
+
+
+
+
+
+.unset {
+  all: unset;
+}
+
+html {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+.counter-list {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-bottom: 30px;
+  }
+
+.pdg-btm-10px {
+  padding-bottom: 10px;
+}
+
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.purple-text {
+  color: hsl(277, 64%, 61%);
+}
+
+.white-text {
+  color: hsl(0, 0%, 100%);
+}
+
+.white075-text {
+  color: hsl(0, 0%, 100%, 0.75);
+}
+
+.white060-text {
+  color: hsl(0, 0%, 100%, 0.75);
+}
+
+
+.text-box {
+  width: 300px;
+  margin: auto;
+}
+
+.main-heading {
+  margin-bottom: 30px;
+}
+
+
+.text-18px {
+  font-size: 18px;
+}
+
+
+
+.text-15px {
+  font-size: 15px;
+}
+
+
+.text-12px {
+  font-size: 12px;
+}
+
+.text-spaced1px {
+  letter-spacing: 1px;
+}
+
+
+.text-inter700 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.text-inter400 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.text-lexend-small {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+}
+
+
+
+
+
+
+.alligned {
+  text-align: center;
+}
+
+
+.body-background-color {
+  background-color: hsl(233, 47%, 7%);
+}
+
+/* MOBILE */
+.container-main {
+  width: 400px;
+  margin: auto;
+  background-color: hsl(233, 47%, 7%);
+  padding-top: 100px;
+
+  }
+
+
+.container-imageandinfocard {
+  margin: auto;
+  overflow: hidden;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  /* border-radius: 12px; */
+
+}
+
+
+
+.container-imageMobile {
+  width: 375px;
+  margin:auto;
+  background-color: hsl(277, 64%, 61%);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  overflow: hidden;
+
+}
+
+.container-infoCard {
+  position: relative;
+  top: -25px;
+  width: 375px;
+  margin: auto;
+  background-color: hsl(244, 38%, 16%);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+  .container-imageDesktop {
+    display: none;
+  }
+
+  .image-mobile {
+    width: 375px;
+    opacity: 0.4;
+
+
+  }
+
+
+
+
+/*768px to 1440px width*/
+@media only screen and (min-width: 768px) {
+  .container-main {
+    width: 800px;
+    margin: auto;
+  }
+
+
+
+  .container-infoCard {
+    position: relative;
+    top: -25px;
+    width: 654px;
+    margin: auto;
+    padding-top: 20px;
+    background-color: hsl(244, 38%, 16%);
+
+  }
+
+
+  .container-imageMobile {
+    width: 654px;
+    margin:auto;
+
+
+  }
+
+  .text-box {
+    width: 500px;
+    margin: auto;
+  }
+
+
+
+  .image-mobile {
+    width: 654px;
+  }
+
+
+
+}
+
+
+
+
+/*DESKTOP */
+
+@media only screen and (min-width: 1440px) {
+
+  .container-main {
+    width: 1400px;
+    height: 768px;
+    margin: auto;
+    padding-top: 150px;
+  }
+
+
+  .container-imageandinfocard {
+    width: 1080px;
+    height: 446px;
+    margin: auto;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 12px;
+    display: flex;
+
+  }
+
+
+
+  .text-box {
+    width: 400px;
+    margin: auto;
+  }
+
+
+  .container-imageMobile {
+    display: none;
+
+  }
+
+  .container-infoCard {
+    width: 540px;
+    height: 419px;
+    margin-top: 50px;
+    background-color: hsl(244, 38%, 16%);
+    overflow: hidden;
+  }
+
+
+
+  .container-imageDesktop {
+    width: 540px;
+    height: 446px;
+    display: block;
+    background-color: hsl(277, 64%, 61%);
+    overflow: hidden;
+
+
+  }
+
+  .image-desktop {
+    width: 100%;
+    opacity: 0.4;
+  }
+
+  .alligned {
+    text-align: left;
+  }
+
+.counter-list {
+  padding-top: 50px;
+  display: flex;
+}
+
+.li-style {
+  padding-right: 80px;
+}
+
+
+}

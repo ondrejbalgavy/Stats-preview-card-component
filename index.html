@@ -3,40 +3,59 @@
   <head>
     <meta charset="utf-8">
     <title>Stats preview card component</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+
+
   </head>
-  <body>
+  <body class="unset body-background-color">
 
 
 <!-- container for the whole preview card -->
-    <div>
+    <div class="container-main">
+
+
+
+<!-- container for Image and Info Card -->
+      <div class="container-imageandinfocard">
+
 
 
 <!-- container for IMAGE for MOBILE DESING -->
-      <div class="">
-        <img src="images\image-header-mobile.jpg" alt="">
+      <div class="container-imageMobile">
+        <img class="image-mobile" src="images\image-header-mobile.jpg" alt="">
       </div>
 <!-- END OF container for IMAGE for MOBILE DESING -->
 
 <!-- container for INFO CARD-->
-      <div class="">
-        <h1>Get insights that help your business grow.</h1>
+      <div class="container-infoCard">
+        <div class="main-heading">
+          <h1 class="white-text text-inter700 text-box alligned heading-margin-bottom">Get <span class="purple-text">insights</span> that help your business grow.</h1>
+        </div>
+        <p class="white075-text text-15px text-box alligned text-lexend-small text-spaced1px">Discover the benefits of data analytics and make better decision regarding revenue, customer experience, and overall efficiency.</p>
 
-        <p>Discover the benefits of data analytics and make better decision regarding revenue, customer experience, and overall efficiency.</p>
-
-        <ul>
-          <li>
-            <p>10k+</p>
-            <p>companies</p>
+        <ul class="alligned text-box counter-list">
+          <li class="li-style">
+            <p class="white-text text-inter700 li-infocard-counter text-18px text-spaced1px">10k+</p>
+            <p class="white060-text text-lexend-small text-uppercase text-12px pdg-btm-10px text-spaced1px">companies</p>
           </li>
 
-          <li>
-            <p>314</p>
-            <p>templates</p>
+          <li class="li-style">
+            <p class="white-text text-inter700 li-infocard-counter text-18px text-spaced1px">314</p>
+            <p class="white075-text text-lexend-small text-uppercase text-12px pdg-btm-10px text-spaced1px">templates</p>
           </li>
 
-          <li>
-            <p>12M+</p>
-            <p>queries</p>
+          <li class="li-style">
+            <p class="white-text text-inter700 li-infocard-counter text-18px text-spaced1px">12M+</p>
+            <p class="white075-text text-inter400 text-uppercase text-12px pdg-btm-10px text-spaced1px">queries</p>
           </li>
         </ul>
 
@@ -46,11 +65,16 @@
 
 
 <!-- container for IMAGE for DESKTOP DESING -->
-      <div class="">
-        <img src="images\image-header-desktop.jpg" alt="">
+      <div class="container-imageDesktop">
+        <img class="image-desktop"src="images\image-header-desktop.jpg" alt="">
       </div>
 <!-- END OF container for DESKTOP for MOBILE DESING -->
 
+
+
+
+    </div>
+<!-- END OF container for Image and Info Card -->
 
     </div>
 <!-- END OF container for the whole preview card -->
